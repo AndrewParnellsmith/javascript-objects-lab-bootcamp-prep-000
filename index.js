@@ -4,4 +4,5 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 function destructrivleyUpdateObjectWithKeyAndValue(object, key, value) {
   object[key] = value
+  return object
 }
